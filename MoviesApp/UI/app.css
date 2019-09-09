@@ -1,0 +1,32 @@
+.bg-out {
+    background: lightblue;
+    padding: 15px;
+}
+.bg-in {
+    background: #ffff5f;
+    padding: 10px;
+}
+.navbar-inverse {
+    background-color: #ffff5f;
+}
+.logo-text {
+    color: black !important;
+}
+
+img.movie {
+    width: 100%;
+    height: auto;
+    background: black;
+    border-radius: 10px;
+}
+
+.list-item {
+    margin-bottom: 15px;
+}
+.s-text {
+    font-size: 0.8em;
+    margin-top: 0.5em;
+} 
+.s-text p {
+    margin: 0;
+} 

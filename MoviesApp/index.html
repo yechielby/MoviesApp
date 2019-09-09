@@ -1,0 +1,63 @@
+﻿<!doctype html>
+
+<html class="no-js" lang="en" ng-app="moviesApp">
+<head>
+    <meta charset="utf-8">
+    <title>Top Movies</title>
+    <meta name="description" content="Find the top movies list.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="UI/icon.png">
+    <link rel="shortcut icon" href="UI/favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="UI/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="UI/app.css">
+
+    <!-- Angular -->
+    <script src="UI/lib/angular/angular.js"></script>
+    <script src="UI/lib/angular-route/angular-route.js"></script>
+    <!-- app -->
+    <script src="UI/app.module.js"></script>
+    <script src="UI/app.config.js"></script>
+    <!-- service -->
+    <script src="UI/data.service.js"></script>
+    <!-- movie-list -->
+    <script src="UI/movie-list/movie-list.module.js"></script>
+    <script src="UI/movie-list/movie-list.component.js"></script>
+    <!-- movie-detail -->
+    <script src="UI/movie-detail/movie-detail.module.js"></script>
+    <script src="UI/movie-detail/movie-detail.component.js"></script>
+</head>
+
+<body>
+    <!--[if IE]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-push-3 col-md-4 col-md-push-4 bg-out">     
+            
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand logo-text" ng-href="/">Top Movies</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                        <li class="active"><a ng-href="/">Home</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Our Website Content Goes Here -->
+                <div ng-view></div>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

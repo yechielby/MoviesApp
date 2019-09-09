@@ -1,0 +1,46 @@
+    <!--Search content-->
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="inputQuery" class="col-xs-3 control-label">Search</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="inputQuery" ng-model="$ctrl.query">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="orderProp" class="col-xs-3 control-label">Sort by</label>
+            <div class="col-xs-9">
+                <!-- <input type="text" class="form-control"  ng-model="$ctrl.orderProp"> -->
+                <select class="form-control" id="orderProp" ng-model="$ctrl.orderProp">
+                    <option value="name">Name</option>
+                    <option value="seasons">Seasons</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-9 col-xs-push-3">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-model="$ctrl.reverseProp">Reverse list
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Body content-->
+    <div class="bg-in">
+        <div class="row list-item" ng-repeat="movie in $ctrl.movies | filter:$ctrl.query  | orderBy:$ctrl.orderProp : $ctrl.reverseProp">
+            <div class="col-xs-4">
+                <a ng-href="#!/movies/{{movie.id}}" class="thumb">
+                    <img ng-src="{{movie.imageUrl}}" alt="{{movie.name}}" class="movie" />
+                </a>
+            </div>
+            <div class="col-xs-8">
+                <div><a ng-href="#!/movies/{{movie.id}}">{{movie.name}}</a></div>
+                <div class="s-text">
+                    <p><strong>Seasons: </strong>{{movie.seasons}}.</p>
+                    <p><strong>Views: </strong>{{movie.views | number}}.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>

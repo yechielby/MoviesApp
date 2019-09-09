@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "The Simpsons",
+        "description" : "The Simpsons is an American animated sitcom created by Matt Groening for the Fox Broadcasting Company. The series is a satirical depiction of working-class life, epitomized by the Simpson family, which consists of Homer, Marge, Bart, Lisa, and Maggie. The show is set in the fictional town of Springfield and parodies American culture and society, television, and the human condition. The family was conceived by Groening shortly before a solicitation for a series of animated shorts with producer James L. Brooks. Groening created a dysfunctional family and named the characters after his own family members, substituting Bart for his own name. The shorts became a part of The Tracey Ullman Show on April 19, 1987. After three seasons, the sketch was developed into a half-hour prime time show and became Fox's first series to land in the Top 30 ratings in a season (1989–90).",
+        "imageUrl": "https://pixel.nymag.com/imgs/daily/vulture/2019/02/06/06-the-simpsons.w330.h330.jpg",
+        "views": 750000000,
+        "seasons": 30
+    },
+    {
+        "id": 2,
+        "name": "Breaking Bad",
+        "description" : "Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan. The show originally aired on AMC for five seasons, from January 20, 2008, to September 29, 2013. Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White (Bryan Cranston), a struggling and depressed high school chemistry teacher who is diagnosed with stage-3 lung cancer. Together with his former student Jesse Pinkman (Aaron Paul), White turns to a life of crime by producing and selling crystallized methamphetamine to secure his family's financial future before he dies, while navigating the dangers of the criminal underworld. The title comes from the Southern colloquialism 'breaking bad' which means to 'raise hell' or turn to a life of crime. Gilligan characterized the series as showing Walter's transformation from a soft-spoken Mr. Chips into Scarface.",
+        "imageUrl": "https://pbs.twimg.com/profile_images/711950531284049921/Uo3ZZPg5_400x400.jpg",
+        "views": 10000000,
+        "seasons": 5
+    },
+    {
+        "id": 3,
+        "name": "Dexter",
+        "description" : "Dexter is an American television crime drama mystery series that aired on Showtime from October 1, 2006, to September 22, 2013. Set in Miami, the series centers on Dexter Morgan (Michael C. Hall), a forensic technician specializing in blood spatter pattern analysis for the fictional Miami Metro Police Department, who leads a secret parallel life as a vigilante serial killer, hunting down murderers who have slipped through the cracks of the justice system. The show's first season was derived from the novel Darkly Dreaming Dexter (2004), the first in a series of novels by Jeff Lindsay. It was adapted for television by screenwriter James Manos Jr., who wrote the first episode. Subsequent seasons evolved independently of Lindsay's works.",
+        "imageUrl": "https://is5-ssl.mzstatic.com/image/thumb/Video5/v4/5a/d7/b7/5ad7b7f2-e5a8-fdd7-3958-7264bbf82795/mzl.wmdvwcpo.lsr/268x0w.png",
+        "views": 15000000,
+        "seasons": 80
+    }
+]
